@@ -5,3 +5,9 @@ gst-launch-1.0 gdiscreencapsrc cursor=TRUE monitor=1 ! videorate ! "video/x-raw,
 3) videoscale : 이미지 크기를 설정한다.
 4) videoconvert : 비디오 형식을 변환한다.
 5) autovideosink : 캡처된 비디오를 랜더링한다. sync 속성은 비동기로 설정한다.
+
+[gdiscreencapsrc](https://gstreamer.freedesktop.org/documentation/winscreencap/gdiscreencapsrc.html?gi-language=c,"gdiscreencapsrc")
+[videorate](https://gstreamer.freedesktop.org/documentation/videorate/index.html?gi-language=c,"videorate")
+[videoscale](https://gstreamer.freedesktop.org/documentation/videoscale/index.html?gi-language=c,"videoscale")
+[videoconvert](https://gstreamer.freedesktop.org/documentation/videoconvert/index.html?gi-language=c,"videoconvert")
+[autovideosink](https://gstreamer.freedesktop.org/documentation/autodetect/autovideosink.html?gi-language=c,"autovideosink")
