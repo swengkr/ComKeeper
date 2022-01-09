@@ -12,4 +12,4 @@ gst-launch-1.0 gdiscreencapsrc cursor=TRUE monitor=1 ! videorate ! "video/x-raw,
 [videoconvert](https://gstreamer.freedesktop.org/documentation/videoconvert/index.html?gi-language=c,"videoconvert")
 [autovideosink](https://gstreamer.freedesktop.org/documentation/autodetect/autovideosink.html?gi-language=c,"autovideosink")
 
-test
+test2
